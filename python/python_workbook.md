@@ -13,7 +13,8 @@ Prints the specified message to the screen.
 ```python
 print("Hello World!")
 ```
-Always put text inside quotation marks (`" "` or `' '`) — otherwise, Python thinks it’s a variable name, not text.
+Always put text inside quotation marks (`" "` or `' '`) - otherwise, Python thinks it’s a variable name, not text.
+
 **Example output:**
 ```
 Hello World!
@@ -23,6 +24,7 @@ Hello World!
 
 ### `Variables` – Storing Information
 A variable is a name used to store data so you can reuse it later.
+
 Think of it as a labeled box where you keep a value.
 ```python
 name = "Bob"
@@ -31,6 +33,7 @@ print(name)
 print(age)
 ```
 Variable names cannot have spaces and must start with a letter or underscore.
+
 **Example output:**
 ```
 Bob
@@ -56,6 +59,7 @@ is_student = True # boolean
 
 ### `input()` – Getting User Input
 You can ask the user for input using the `input()` function.
+
 Everything entered by the user is read as text (a string).
 
 ```python
@@ -92,7 +96,7 @@ print("Remainder:", a % b)
 
 ## **2. Conditional Statements (if/elif/else)**
 
-Conditional statements let your program make decisions — they control what happens based on certain conditions.
+Conditional statements let your program make decisions - they control what happens based on certain conditions.
 
 
 ---
@@ -106,6 +110,7 @@ if x > 5:
 ```
 Indentation (spaces before the line) is very important in Python.
 Use 4 spaces (or press Tab once) to indent code inside an if block.
+
 **Example output:**
 ```
 x is greater than 5
@@ -131,7 +136,7 @@ Negative number or zero
 ---
 
 ### `if ... elif ... else` Statement
-When you have multiple conditions, use elif (“else if”).
+When you have multiple conditions, use `elif`.
 ```python
 temperature = 25
 
@@ -187,6 +192,7 @@ You are an adult.
 
 ## **3. Loops**
 Loops let you repeat code multiple times without writing it again and again.
+
 They are useful when you need to perform a task many times or go through a collection of data.
 
 ### `while` Loop
@@ -206,7 +212,7 @@ Count: 3
 Count: 4
 Count: 5
 ```
-Be careful with while loops — if the condition never becomes `False`, you’ll create an infinite loop.
+Be careful with while loops - if the condition never becomes `False`, you’ll create an infinite loop.
 
 ---
 
@@ -248,6 +254,7 @@ print("You got it!")
 
 ### `range()` Function
 `range()` is a built-in Python function that generates a sequence of numbers.
+
 You can use it in a `for` loop to control how many times the loop runs.
 
 Basic forms of `range()`:
@@ -261,7 +268,7 @@ Basic forms of `range()`:
 ---
 
 ### `for` – Loop
-A `for` loop is used to iterate over a sequence — like a list, string, or range of numbers.
+A `for` loop is used to iterate over a sequence - like a list, string, or range of numbers.
 ```python
 for i in range(5):
     print("Iteration:", i)
@@ -318,4 +325,5 @@ n
 
 
 ---
+
 
